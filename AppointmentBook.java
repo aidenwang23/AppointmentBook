@@ -1,16 +1,8 @@
 public class AppointmentBook 
 {
-    private int period;
-    private int minuteStart;
-    private int minuteEnd;
-    private boolean timeAvailable;
-
-    public AppointmentBook(int block, int start, int end, boolean available)
+    public AppointmentBook()
     {
-        period = block;
-        minuteStart = start;
-        minuteEnd = end;
-        timeAvailable = available;
+
     }
 
     /**
@@ -20,7 +12,8 @@ public class AppointmentBook
      */
     private boolean isMinuteFree(int period, int minute) 
     {
-        /* implementation not shown */ 
+        /* implementation not shown */
+        return false;
     }
 
     /**
@@ -45,6 +38,7 @@ public class AppointmentBook
     public int findFreeBlock(int period, int duration) 
     {
         /* to be implemented in part (a) */ 
+        return -1;
     }
 
     /**
@@ -58,6 +52,7 @@ public class AppointmentBook
     public boolean makeAppointment(int startPeriod, int endPeriod, int duration)
     {
         /* to be implemented in part (b) */ 
+        return false;
     }
     // There may be instance variables, constructors, and methods that are not
     // shown.
